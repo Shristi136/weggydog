@@ -1,0 +1,119 @@
+[
+    {
+        "id":1,
+        "name":"Grey Hoodie",
+        "category":"Dog",
+        "price":999.69,
+        "stock":50,
+        "description":"Super Soft Trendy Hoodies for Pet - Ultra",
+        "image":"../public/images/item1.jpg"
+    },
+    {
+        "id":2,
+        "name":"Jean Dress",
+        "category":"Dog",
+        "price":500.69,
+        "stock":50,
+        "description":"Ruse Pet winter Cattitude Printed Round Neck Sleeveless Cat Vest Tank T-Shirt with jeans/Clothes/Tees Gift for Cat.(blue) M",
+        "image":"../public/images/item2.jpg"
+    },
+    {
+        "id":3,
+        "name":"Pink T-shirt",
+        "category":"Dog",
+        "price":300.69,
+        "stock":10,
+        "description":"Super soft cotton jersey dog T-Shirts. (pure cotton)",
+        "image":"../public/images/item3.jpg"
+    },
+    {
+        "id":4,
+        "name":"Black T-shirt",
+        "category":"Dog",
+        "price":500.69,
+        "stock":20,
+        "description":"Super soft cotton jersey dog T-Shirts. (pure cotton)",
+        "image":"../public/images/item4.jpg"
+    },
+    {
+        "id":5,
+        "name":"Wood House",
+        "category":"Cat",
+        "price":12000.69,
+        "stock":8,
+        "description":"Wooden Water Proof Home Dog House Kennel Indoor and Outdoor Ideal for Small and Medium Dogs House for Dogs Pets 31 x 27 x 21.5 Inches",
+        "image":"../public/images/item5.jpg"
+    },
+    {
+        "id":6,
+        "name":"Gravy Food",
+        "category":"Dog",
+        "price":500.69,
+        "stock":8,
+        "description":" Wet Food for Adult Dogs, Chicken & Liver Chunks in Gravy Flavour, Pack of 15 (15 x 70g)",
+        "image":"../public/images/item6.jpg"
+    },
+    {
+        "id":7,
+        "name":"Yellow T-Shirt",
+        "category":"Dog",
+        "price":1200.69,
+        "stock":20,
+        "description":"Ruse Crew Neck full Sleeves T-Shirt for Dogs IPL Chennai Supaw Clings Team Dog Cotton Jersey Printed Breathable Tees Apparel for Pet - Gift for Dogs (Desi/Stray, Doberman etc) (Yellow, s)",
+        "image":"../public/images/item7.jpg"
+    },
+    {
+        "id":8,
+        "name":"Blue T-Shirt",
+        "category":"dog",
+        "price":1200.69,
+        "stock":20,
+        "description":"Ruse Crew Neck Sleeves T-Shirt for Dogs IPL Chennai Supaw Clings Team Dog Cotton Jersey Printed banana - Gift for Dogs (Desi/Stray, Doberman etc) (blue, s)",
+        "image":"../public/images/item8.jpg"
+    },
+    {
+        "id":9,
+        "name":"Chew Sticks",
+        "category":"Dog",
+        "price":200.69,
+        "stock":500,
+        "description":"Pets Empire Rawhide Chew White Sticks 10Pcs (Pack of 1)",
+        "image":"../public/images/item9.jpg"
+    },
+    {
+        "id":10,
+        "name":"Gravy Food",
+        "category":"cat",
+        "price":12000.69,
+        "stock":15,
+        "description":" Wet Food for Adult Dogs, Chicken & Liver Chunks in Gravy Flavour, Pack of 15 (15 x 70g)",
+        "image":"../public/images/item10.jpg"
+    },
+    {
+        "id":11,
+        "name":"Protein Bar",
+        "category":"cat",
+        "price":500.69,
+        "stock":15,
+        "description":" solid protein bar Food for Adult cat, Chicken & Liver Chunks in Gravy Flavour, Pack of 15 (15 x 70g)",
+        "image":"../public/images/item11.jpg"
+    },
+    {
+        "id":12,
+        "name":"Gravy Food",
+        "category":"dog",
+        "price":600.69,
+        "stock":15,
+        "description":" Wet Food for Adult Dogs, Chicken & Liver Chunks in Gravy Flavour, Pack of 15 (15 x 70g)",
+        "image":"../public/images/item12.jpg"
+    },
+    {
+        "id":13,
+        "name":"Vitamin Tablets and Drop",
+        "category":"cat",
+        "price":1000.69,
+        "stock":100,
+        "description":"Vitamin Tablets with vitamin drops for good health of your dog 15(15 x 70g) and 15ml drop bottle",
+        "image":"../public/images/item13.jpg"
+    }
+]
