@@ -9,30 +9,42 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+  <link rel="shortcut icon" href="/images/dog-web-fevicon.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <title>waggy pet shop.</title>
 </head>
 <body>
      <!-- start navbar  -->
      <header class="section-one">
-      <div class="nav-container">
-          <div class="logo">
-              <a href="index.html"><img src="public/images/logo.png" alt="logo of the website" width="100%" height="auto"></a>
-          </div>
-          <nav class="navbar">
-              <ul>
-                  <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="product.html">Products</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="user.html"><i class="fa-solid fa-user"></i></a></li>
-                  <li class="nav-item"> <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"> 0 </i></a></li>
-                  </ul>
-          </nav>
-      </div>
-  </header>
-  <!-- end navbar  -->
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html"><img src="/images/logo.png" alt="logo of the website" width="100%" height="auto"></a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="product.html">Products</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"> 0 </i></a></li>
+                    </ul>
+            </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+              &#9776;
+            </div>
+        </div>
+    </header>
+    <!-- ///////////////////////////////// -->
+    <nav class="sidebar" id="sidebar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="product.html">Products</a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
+        <li class="nav-item"><a href="cart.html"><i class="fa-solid fa-cart-shopping"> 0</i></a></li>
+      </ul>
+    </nav>
+    <!-- end navbar  -->
 
   <!-- shopping cart section start -->
   <section class="cart-section">
@@ -117,7 +129,7 @@
           </div>
         </div>
         <div class="contact-img">
-            <img src="public/images/contact dog.png" alt="a hand of dog hold by human" width="400">
+            <img src="/images/contact dog.png" alt="a hand of dog hold by human" width="400">
         </div>
     </div>
     </div>
@@ -129,7 +141,7 @@
     <div class="footer">
         <div class="footer-1--div">
             <div class="logo">
-                <a href="index.html"><img src="public/images/logo.png" alt="logo of the website" width="45%" height="auto"></a>
+                <a href="index.html"><img src="/images/logo.png" alt="logo of the website" width="45%" height="auto"></a>
             </div>
             <p>Subscribe us to get updates about our grand offers.</p>
             <br>

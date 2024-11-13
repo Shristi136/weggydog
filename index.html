@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/images/dog-web-fevicon.png" type="image/x-icon">
 
   <link rel="stylesheet" href="style.css">
   <title>waggy pet shop.</title>
@@ -18,7 +19,7 @@
      <header class="section-one">
       <div class="nav-container">
           <div class="logo">
-              <a href="index.html"><img src="public/images/logo.png" alt="logo of the website" width="100%" height="auto"></a>
+              <a href="index.html"><img src="/images/logo.png" alt="logo of the website" width="100%" height="auto"></a>
           </div>
           <nav class="navbar">
               <ul>
@@ -26,20 +27,32 @@
                   <li class="nav-item"> <a class="nav-link" href="product.html">Products</a></li>
                   <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
                   <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="user.html"><i class="fa-solid fa-user"></i></a></li>
                   <li class="nav-item"> <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"> 0 </i></a></li>
                   </ul>
           </nav>
+          <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+          </div>
       </div>
   </header>
+  <!-- ///////////////////////////////// -->
+  <nav class="sidebar" id="sidebar">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item"><a href="product.html">Products</a></li>
+      <li class="nav-item"><a href="about.html">About</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+      <li class="nav-item"><a href="cart.html"><i class="fa-solid fa-cart-shopping"> 0</i></a></li>
+    </ul>
+  </nav>
   <!-- end navbar  -->
 
   <!-- hero section start -->
-<main class="section-two">
+<main class="section-two shapedividers_com-7108">
   <div class="hero-grid">
     <div class="right--hero">
       <figure>
-          <img src="public/images/banner-img.png" alt="banner dog image" width="350">
+          <img class="banner-img" src="/images/banner-img.png" alt="banner dog image" width="350">
       </figure>
   </div>
       <div class="left--hero">
@@ -47,13 +60,6 @@
           <p class="heading">Great love bond comes from <br> good and healthy care</p>
           <div ><a href="product.html" class="btn">Shop now</a></div>
       </div>
-  </div> 
-  <div class="custom-shape-divider-bottom-1711799045">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-          <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-          <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-      </svg>
   </div>
 </main>
 <!--hero section End  -->
@@ -66,25 +72,25 @@
   <div class="service-grid">
       <div class="service-div">
           <div class="service-icon">
-              <img src="public/images/food.png" alt="Food icon image">
+              <img src="/images/food.png" alt="Food icon image">
           </div>
           <h3 class="common-tittle">Food</h3>
       </div>
       <div class="service-div">
           <div class="service-icon">
-              <img src="public/images/dog.png" alt="Dog icon image">
+              <img src="/images/dog.png" alt="Dog icon image">
           </div>
           <h3 class="common-tittle">Dog</h3>
       </div>
       <div class="service-div">
           <div class="service-icon">
-              <img src="public/images/cat.png" alt="Cat icon image">
+              <img src="/images/cat.png" alt="Cat icon image">
           </div>
           <h3 class="common-tittle">Cat</h3>
       </div>
       <div class="service-div">
         <div class="service-icon">
-            <img src="public/images/toy.png" alt="Toys icon image">
+            <img src="/images/toy.png" alt="Toys icon image">
         </div>
         <h3 class="common-tittle">Toys</h3>
     </div>
@@ -97,83 +103,11 @@
         <h2 class="common-heading">Products</h2>
         <p class="common-subheading">Checkout Weggy Pet Shop</p>
     </div>
-    <div class="blog-grid">
-        <div class="card">
-            <figure>
-                <img
-                  src="images/Untitled design (5).png"
-                  alt="a guy writing code"
-                />
-              </figure>
-              <div class="blog-content">
-                <div class="blog-date">
-                  <p><i class="fa-calendar fa-solid"></i> Sept 22 2023</p>
-                  <p><i class="fa-solid fa-arrow-right"></i></p>
-                </div>
-                <h3 class="common-tittle">
-                  Code your first react app with us
-                </h3>
-              </div>
-        </div>
-        <div class="card">
-            <figure>
-                <img
-                  src="images/Untitled design (6).png"
-                  alt="a guy writing code"
-                />
-              </figure>
-              <div class="blog-content">
-                <div class="blog-date">
-                  <p><i class="fa-calendar fa-solid"></i> Sept 22 2023</p>
-                  <p><i class="fa-solid fa-arrow-right"></i></p>
-                </div>
-                <h3 class="common-tittle">
-                  Code your first react app with us
-                </h3>
-              </div>
-        </div>
-        <div class="card">
-            <figure>
-                <img
-                  src="images/Untitled design (7).png"
-                  alt="a guy writing code"
-                />
-              </figure>
-              <div class="blog-content">
-                <div class="blog-date">
-                  <p><i class="fa-calendar fa-solid"></i> Sept 22 2023</p>
-                  <p><i class="fa-solid fa-arrow-right"></i></p>
-                </div>
-                <h3 class="common-tittle">
-                  Code your first react app with us
-                </h3>
-              </div>
-        </div>
-        <div class="card">
-            <figure>
-                <img
-                  src="images/Untitled design (8).png"
-                  alt="a guy writing code"
-                />
-              </figure>
-              <div class="blog-content">
-                <div class="blog-date">
-                  <p><i class="fa-calendar fa-solid"></i> Sept 22 2023</p>
-                  <p><i class="fa-solid fa-arrow-right"></i></p>
-                </div>
-                <h3 class="common-tittle">
-                  Code your first react app with us
-                </h3>
-              </div>
-        </div>
-    </div>
 </section>
 <section class="container">
     <div id="productContainer">
-        
     </div>
 </section>
-
 <!-- start product template section  -->
   <template id="productTemplate">
      <div class="card" id="cardValue">
@@ -249,7 +183,7 @@
       </div>
       <div class="mid-colume">
           <figure>
-              <img src="public/images/banner-img2.png" alt="website open on phone image">
+              <img src="/images/banner-img2.png" alt="website open on phone image">
           </figure>
       </div>
       <div class="right-colume">
@@ -290,7 +224,7 @@
           </div>
         </div>
         <div class="contact-img">
-            <img src="public/images/contact dog.png" alt="a hand of dog hold by human" width="400">
+            <img src="/images/contact dog.png" alt="a hand of dog hold by human" width="400">
         </div>
     </div>
     </div>
@@ -302,7 +236,7 @@
     <div class="footer">
         <div class="footer-1--div">
             <div class="logo">
-                <a href="index.html"><img src="public/images/logo.png" alt="logo of the website" width="45%" height="auto"></a>
+                <a href="index.html"><img src="/images/logo.png" alt="logo of the website" width="45%" height="auto"></a>
             </div>
             <p>Subscribe us to get updates about our grand offers.</p>
             <br>
@@ -343,6 +277,12 @@
     <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash;
 </div>
 <!-- footer section end  -->
+ <script>
+function toggleMenu() {
+  const sidebar = document.getElementById('sidebar');
+  sidebar.classList.toggle('active');
+}
+ </script>
 </body>
 <script src="https://kit.fontawesome.com/b28e878441.js" crossorigin="anonymous"></script>
 <script type="module" src="main.js"></script>
